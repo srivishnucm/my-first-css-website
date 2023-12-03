@@ -1,0 +1,107 @@
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/tree-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+*{
+     color: white; 
+     /* margin: 0; 
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+
+
+/* container bg  */
+.container-main{
+    margin: 10px 110px;
+    /* height: 100vh; */
+}
+
+
+/* serach bar styling  */
+.search-bar{
+padding: 8px 20px;
+border:  2px solid #FF7200;
+width: 300px;
+border-radius: 20px;
+}
+
+form{
+    display: flex;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    justify-content: space-between;
+}
+
+input {
+    background-color: transparent;
+    outline: 0;
+    border: none;
+}
+
+
+
+form img{
+    /* outline: 2px solid; */
+    height: 20px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+/* search bar styling end */
+/* link and anchor style starts*/
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 60px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* link and anchor style ends */
+
+
+
+/* making navbar */
+
+
+.header-top{
+   
+
+display: flex;
+justify-content: space-between;
+ align-items: center; 
+
+
+
+}
+
+h3{
+color: #FF7200;
+font-size: 40px;     
+     
+}
+/* hover effrct for list */
+.header-top ul li :hover {
+color: #FF7200;
+transition: 0.1s;
+}
+/* navbar ends */
+
+
+/* hero section starts  */
+.hero-section{
+    margin-top: 90px;
+/* height: 100vh; */
+display: flex;
+justify-content: space-between;
+}
+/* hero section ends */
